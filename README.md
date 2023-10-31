@@ -13,9 +13,5 @@ Results :The insights derived from this study not only shed light on the societa
 ![image](https://github.com/Eni0l/covid19-and-crime/assets/149200508/91b612a9-8621-4dd2-bf8d-4aa9c0098c1c)
 ![image](https://github.com/Eni0l/covid19-and-crime/assets/149200508/ac2b4b34-228c-4fa5-a4a3-9c828ba39dcb)
 
-essex_burg = essex_df_nona.loc[essex_df_nona['Crime type'] == 'Burglary']
-#essex_burg = essex_burg.loc[essex_burg['Period'] == 'Pre-CoVID']
-burg_map = essex_burg[['Latitude', 'Longitude']].to_numpy()
-crime_map.add_child(plugins.MarkerCluster(burg_map))
-crime_map.add_child(plugins.HeatMap(burg_map))
-crime_map
+<img width="586" alt="image" src="https://github.com/Eni0l/covid19-and-crime/assets/149200508/8a640684-29c2-4788-9135-8fd9e7a05838">
+
